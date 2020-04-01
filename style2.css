@@ -1,0 +1,275 @@
+hr {
+  margin: 10px auto 30px auto;
+}
+
+.navybar-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    font-size: 3rem;
+    z-index: 9999;
+    box-shadow: 1px 1px 1px rgba(45, 45, 45, 0.1);
+}
+
+
+.banner {
+  width: 100vw;
+  margin-bottom: 0;
+  overflow: inherit;
+  z-index: 8888;
+}
+
+h1 {
+  color: black;
+}
+
+h2 {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 3rem;
+}
+
+h3 {
+  color: Brown;
+  line-height: 0px;
+}
+
+.big-container {
+  height: 900px;
+  display: flex;
+  margin-top: 0;
+  width: 100%;
+}
+
+.container1 {
+  flex: 1;
+  overflow: scroll;
+  background-color: yellow;
+  margin-top: -5px;
+  text-align: center;
+}
+.heading {
+  margin-top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.container2 {
+  flex: 1;
+  overflow: scroll;
+  background-color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 80px;
+}
+
+.image-and-caption2 {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border: 0;
+  font-size: 11px;
+  color: gray;
+}
+
+.image-holder2 {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  padding: 20px auto 10px auto;
+  font-size: 11px;
+  color: gray;
+}
+
+.body-text {
+  font-family: 'Sen', sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 0;
+  font-size: 18px;
+  line-height: 30px;
+
+}
+.caption {
+  border-top: 1px solid Brown;
+  font-size: 15px;
+  line-height: 22px;
+  color: Brown;
+  font-family: 'Merriweather', serif;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.list{
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  padding-top: 20px;
+  paddind-bottom: 20px;
+  padding-left: 8%;
+  background-color: Brown;
+  border-bottom: 10px solid Brown;
+}
+
+#tokyo {
+  font-family: 'Unica One', cursive;
+  font-size: 8.5rem;
+  margin-bottom: -80px;"
+}
+
+#austin {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 5rem;"
+}
+
+@media (max-width: 769px) {
+  .big-container {
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    width: 100vw;
+    background-color: yellow;
+  }
+
+  .container1 {
+    flex: 1;
+    width: 100%;
+    overflow: scroll;
+    background-color: yellow;
+    margin-top: -4px;
+    text-align: center;
+    height: 140px;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    top: -50px;
+
+  }
+  .heading {
+    margin-top: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: -20px;
+  }
+
+  .container2 {
+    flex: 1;
+    overflow: scroll;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 60px;
+  }
+
+  #tokyo {
+    font-family: 'Unica One', cursive;
+    font-size: 8rem;
+    margin-bottom: -100px;
+    margin-top: 20px;
+  }
+
+  #austin {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 5rem;
+    margin-bottom: -50px;
+  }
+
+  h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 3rem;
+  }
+}
+
+
+
+
+@media (max-width: 376px) {
+  .big-container {
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .container1 {
+    flex: 1;
+    width: 100vw;
+    overflow: scroll;
+    background-color: yellow;
+    margin-top: -4px;
+    text-align: center;
+    height: 40vw;
+    padding-top: 0;
+
+  }
+  .heading {
+    margin-top: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .container2 {
+    flex: 1;
+    overflow: scroll;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 60px;
+  }
+
+  #tokyo {
+    font-family: 'Unica One', cursive;
+    font-size: 5.5rem;
+  }
+
+  #austin {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2.5rem;
+    padding-top: 60px;
+
+  }
+
+  h2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.7rem;
+    padding-top: 40px;
+    padding-bottom: 10px;
+  }
+
+  .body-text {
+    font-family: 'Sen', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 0;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .caption {
+    border-top: 1px solid Brown;
+    font-size: 14px;
+    line-height: 17px;
+    color: Brown;
+    font-family: 'Amiri', serif;
+    margin-bottom: 50px;
+  }
+
+  .list{
+    font-size: 12px;
+    line-height:25px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    padding-left: 4%;
+    padding-right: 3%;
+    background-color: Brown;
+    border-bottom: 10px solid Brown;
+  }
+
+}
